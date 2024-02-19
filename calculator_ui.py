@@ -51,7 +51,7 @@ class CalculatorUI:
 class Handler:
     def __init__(self, ui):
         self.ui = ui
-        self.memory = [["", ""], ["1+1", "2"], ["2+2", "4"]]
+        self.memory = [["", ""]]
         self.memory_index = 0
         self.ui.expression = self.memory[self.memory_index][0]
         self.ui.answer = self.memory[self.memory_index][1]
